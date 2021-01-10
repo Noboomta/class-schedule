@@ -8,7 +8,7 @@
         day="MON"
         startTime="13"
         endTime="15"
-        note="Classroom"
+        note=""
         work=""
         style="background-color: #f7cd53;"
       />
@@ -29,7 +29,7 @@
         day="TUE"
         startTime="16"
         endTime="17.30"
-        note="Classroom"
+        note=""
         work=""
         style="background-color: #de6e7b;"
       />
@@ -40,7 +40,7 @@
         day="WED"
         startTime="9"
         endTime="12"
-        note="Classroom"
+        note=""
         work=""
         style="background-color: #20c997;"
       />
@@ -50,7 +50,7 @@
         day="WED"
         startTime="13"
         endTime="16"
-        note="Classroom"
+        note="Line"
         work=""
         style="background-color: #20c997;"
       />
@@ -61,7 +61,7 @@
         day="THU"
         startTime="13"
         endTime="15"
-        note="Classroom"
+        note=""
         work=""
         style="background-color: orange"
       />
@@ -71,7 +71,7 @@
         day="THU"
         startTime="13"
         endTime="15"
-        note="Classroom"
+        note=""
         work=""
         style="background-color: orange"
       />
@@ -82,7 +82,7 @@
         day="FRI"
         startTime="9"
         endTime="12"
-        note="Classroom"
+        note="https://meet.google.com/lookup/ctlardysvk"
         work=""
         style="background-color: #3e64ff"
       />
@@ -92,7 +92,7 @@
         day="FRI"
         startTime="13"
         endTime="16"
-        note="Classroom"
+        note=""
         work=""
         style="background-color: #3e64ff"
       />
