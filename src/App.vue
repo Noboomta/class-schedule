@@ -2,7 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    
+    <Boom nickname="BOOMMMM" age="19"/>
   </div>
 </template>
 

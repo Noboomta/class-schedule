@@ -1,14 +1,14 @@
 <template>
-    <div class="boom">
-        <h1>{{ age }}{{ int }}</h1>
+    <div class="Boom">
+        <h1>{{ age }}{{ nickname }}</h1>
     </div>
 </template>
 
 <script>
 export default {
-    name: "boom",
+    name: 'Boom',
     props: {
-        age: int,
+        age: Number,
         nickname: String
     }
 }
