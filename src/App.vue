@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <strong><h1>2021/1st Schedule</h1></strong>
+    <strong><h1>2021 / Sem1 Schedule</h1></strong>
     <center>
       <Subject
         subName="Soft Specification and Design"
@@ -19,7 +19,7 @@
         day="TUE"
         startTime="13"
         endTime="16"
-        note=""
+        note="https://meet.google.com/lookup/dms2lanufg"
         work=""
         style="background-color: #de6e7b;"
       />

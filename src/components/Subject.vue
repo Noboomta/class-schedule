@@ -11,7 +11,9 @@
         </table>
         <table>
             <tr>
-                <th id="note"><h4>NOTE: {{ note }}</h4></th>
+                <th id="note"><h4 style="color:blue">{{ note }}</h4></th>
+            </tr>
+            <tr>
                 <th id="work"><h4>WORK: {{ work }}</h4></th>
             </tr>
         </table>
@@ -48,7 +50,7 @@ export default {
         startTime: Number,
         endTime: Number,
         note: String,
-        work: String
+        work: String,
     }
 }
 </script>
