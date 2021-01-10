@@ -2,17 +2,17 @@
     <div id="rcorners">
         <table>
             <tr>
-                <th id="day"><h3>DAY: {{ day }}</h3></th>
-                <th id="subjectName"><h3>NAME: {{ subName }}</h3></th>
-                <th id="teacherName"><h3>BY: {{ teacherName }}</h3></th>
-                <th id="startTime"><h3>Start: {{ startTime }}</h3></th>
-                <th id="endTime"><h3>End: {{ endTime }}</h3></th>
+                <th id="day"><h2>{{ day }}</h2></th>
+                <th id="subjectName"><h4>{{ subName }}</h4></th>
+                <th id="teacherName"><h4>{{ teacherName }}</h4></th>
+                <th id="startTime"><h4>Start: {{ startTime }}</h4></th>
+                <th id="endTime"><h4>End: {{ endTime }}</h4></th>
             </tr>
         </table>
         <table>
             <tr>
-                <th id="note"><h3>NOTE: {{ note }}</h3></th>
-                <th id="work"><h3>WORK: {{ work }}</h3></th>
+                <th id="note"><h4>NOTE: {{ note }}</h4></th>
+                <th id="work"><h4>WORK: {{ work }}</h4></th>
             </tr>
         </table>
     </div>
@@ -30,10 +30,11 @@
         padding: 5px;
     }
     #rcorners {
-        border-radius: 25px;
-        border: 2px solid orangered;
-        padding: 10px; 
-        background-color: orange;
+        border-radius: 15px;
+        border: 3px solid orangered;
+        padding: 3px; 
+        background-color: #f7cd53;
+        max-width: 75%;
     }
 </style>
 
@@ -43,7 +44,7 @@ export default {
     props:{
         subName: String,
         teacherName: String,
-        day: Number,
+        day: String,
         startTime: Number,
         endTime: Number,
         note: String,
